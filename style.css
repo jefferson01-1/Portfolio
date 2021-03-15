@@ -499,6 +499,7 @@ section .title::after{
     height: 45px;
     width: 100%;
     margin-bottom: 15px;
+
 }
 .contact .right form .textarea{
     height: 80px;
@@ -551,6 +552,44 @@ section .title::after{
     color: #cca300;
     background: none;
 }
+#status
+{
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 8px;
+    
+}
+#status.success
+{
+    background-color: #cca300;
+    animation: status 3s ease forwards;
+}
+#status.error
+{
+    background-color: red;
+    animation: status 3s ease forwards;
+}
+@keyframes status
+{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+
 
 /* footer section styling */
 footer{
