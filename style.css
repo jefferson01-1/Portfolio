@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("exif_temp_image.jpg") no-repeat center;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url("exif_temp_image.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
