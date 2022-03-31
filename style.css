@@ -368,6 +368,9 @@ section .title::after{
 .skills-content .right .js::before{
     width: 80%;
 }
+.skills-content .right .py::before{
+    width: 87%;
+}
 .skills-content .right .wp::before{
     width: 87%;
 }
