@@ -19,7 +19,7 @@ html{
     background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #171717;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -71,9 +71,9 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: #cca300;
+    color: #323232;
     padding: 0 5px;
-    background: #fff;
+    background: #ffffff;
     transform: translateX(-50%);
 }
 
@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #cca300;
+    background: #323232;
 }
 .navbar .max-width{
     display: flex;
@@ -101,7 +101,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: #cca300;
+    color: #323232;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -120,7 +120,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: #cca300;
+    color: #323232;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -137,7 +137,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #cca300;
+    background: #323232;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -191,24 +191,25 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: #323232;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: #cca300;
+    background: #323232;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #cca300;
+    border: 2px solid #323232;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: #cca300;
-    background: none;
+    color: #dedddd;
+    background: #416186;
+    border: 2px solid #dedddd;
 }
 
 /* about section styling */
@@ -217,19 +218,20 @@ section .title::after{
 }
 .about .about-content .left a{
     display: inline-block;
-    background: #cca300;
-    color: #fff;
+    background: #323232;
+    color: #111;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #cca300;
+    border: 2px solid #323232;
     transition: all 0.3s ease;
 }
 .about .about-content .left a:hover{
-    color: #cca300;
-    background: none;
+    color: #dedddd;
+    background: #416186;
+    border: 2px solid #dedddd;
 }
 
 .about .about-content .left img{
@@ -247,7 +249,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: crimson;
+    color: 323232;
 }
 .about .about-content .right p{
     text-align: justify;
@@ -278,7 +280,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #cca300;
+    background: #313c6e;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -288,7 +290,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: #cca300;
+    color: #323232;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -318,19 +320,20 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: #cca300;
+    background: #323232;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #cca300;
+    border: 2px solid #323232;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: #cca300;
-    background: none;
+    color: #dedddd;
+    background: #416186;
+    border: 2px solid #dedddd;
 }
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
@@ -416,7 +419,7 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid #cca300;
+    border: 5px solid #323232;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
@@ -432,7 +435,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid #cca300!important;
+    border: 2px solid #323232!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -541,8 +544,8 @@ section .title::after{
 .contact .right form .button button{
     width: 100%;
     height: 100%;
-    border: 2px solid #cca300;
-    background: #cca300;
+    border: 2px solid #323232;
+    background: #323232;
     color: #fff;
     outline: none;
     font-size: 20px;
@@ -552,8 +555,9 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .contact .right form .button button:hover{
-    color: #cca300;
-    background: none;
+    color: #dedddd;
+    background: #416186;
+    border: 2px solid #dedddd;
 }
 #status
 {
@@ -602,11 +606,13 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: #cca300;
+    color: #3a5a7f;
     text-decoration: none;
 }
 footer span a:hover{
+    color: #fff;
     text-decoration: underline;
+    transition: all 0.3s ease;
 }
 
 
