@@ -1,1 +1,1 @@
-This a simple HTML, CSS and JavaScript
+The <b>'README'</b> file provides an overview of a personal portfolio website built using HTML, CSS, and JavaScript and hosted on GitHub Pages. It includes instructions on how to run the website locally, information on how to navigate the website, and details on how to contribute to the project. The license for the project is also included.
