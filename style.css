@@ -219,7 +219,7 @@ section .title::after{
 .about .about-content .left a{
     display: inline-block;
     background: #323232;
-    color: #111;
+    color: #FFFFFF;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
