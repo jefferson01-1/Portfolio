@@ -191,7 +191,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #323232;
+    color: #4272a1;
     font-weight: 500;
 }
 .home .home-content a{
@@ -218,7 +218,7 @@ section .title::after{
 }
 .about .about-content .left a{
     display: inline-block;
-    background: #323232;
+    background: #242424;
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 500;
@@ -249,7 +249,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: 323232;
+    color: #4272a1;
 }
 .about .about-content .right p{
     text-align: justify;
@@ -269,6 +269,7 @@ section .title::after{
 .teams .title::after{
     background: #111;
     content: "What I Provide";
+    color:#313c6e ;
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
